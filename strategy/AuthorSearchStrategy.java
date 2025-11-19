@@ -7,7 +7,7 @@ public class AuthorSearchStrategy implements SearchStrategy {
   @Override
   public Book search(List<Book> books, String keyword) {
     for (Book book : books) {
-      if (book.getAuthor().toLowerCase().contains(keyword.toLowerCase())) {
+      if (book.getAuthor().toLowerCase().equals(keyword.toLowerCase())) {
         return book;
       }
     }
