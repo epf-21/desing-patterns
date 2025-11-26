@@ -115,7 +115,7 @@ public class LibraryFacade {
 - Simplifica las operaciones complejas del sistema
 - Oculta la complejidad interna al cliente
 
-### 🎯 Strategy (Patrón de Comportamiento)
+### Strategy (Patrón de Comportamiento)
 
 **Problema que resuelve**: Seleccionar algoritmos dinámicamente.
 
