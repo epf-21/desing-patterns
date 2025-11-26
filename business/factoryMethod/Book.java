@@ -1,4 +1,4 @@
-package factoryMethod;
+package business.factoryMethod;
 
 public abstract class Book {
   private String title;
@@ -18,6 +18,6 @@ public abstract class Book {
   }
 
   public String getInfo() {
-    return "Title: " + this.title + ", Author: " + this.author;
+    return "Título: " + this.title + ", Autor: " + this.author;
   }
 }

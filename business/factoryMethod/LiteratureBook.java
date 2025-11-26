@@ -1,4 +1,4 @@
-package factoryMethod;
+package business.factoryMethod;
 
 public class LiteratureBook extends Book {
   public LiteratureBook(String title, String author) {
