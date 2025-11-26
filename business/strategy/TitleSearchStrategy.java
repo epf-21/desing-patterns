@@ -1,6 +1,6 @@
-package strategy;
+package business.strategy;
 
-import factoryMethod.Book;
+import business.factoryMethod.Book;
 import java.util.List;
 
 public class TitleSearchStrategy implements SearchStrategy {

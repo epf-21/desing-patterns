@@ -1,4 +1,4 @@
-package factoryMethod;
+package business.factoryMethod;
 
 public class LiteratureBookCreator extends BookCreator {
   @Override
